@@ -74,7 +74,7 @@ if primar == 'D' && sekundar == 'Y'
     Y_21_abc = simUFazZ(Y_21);
     Y_22_abc = simUFazZ(Y_22);
 end
-if sekundar ~= 'Y' || primar ~= 'Y' || sekundar ~= 'D' || primar ~= 'D' || c < 0
+if sekundar ~= 'Y' && sekundar ~= 'D' || primar ~= 'Y' && primar ~= 'D' || c < 0
     Y_11_abc = 0; 
     Y_12_abc = 0;
     Y_21_abc = 0; 
